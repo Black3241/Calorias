@@ -1,0 +1,25 @@
+{
+  "name": "Calorías — registro de nutrientes",
+  "short_name": "Calorías",
+  "description": "Registro personal de calorías y nutrientes. Sin cuentas: todo se guarda en tu dispositivo.",
+  "lang": "es",
+  "start_url": "./#/hoy",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1512",
+  "theme_color": "#16a34a",
+  "categories": ["health", "food", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Hoy", "url": "./#/hoy", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Buscar alimento", "url": "./#/buscar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Registrar peso", "url": "./#/peso", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
